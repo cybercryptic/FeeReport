@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Fri Jul 01 06:43:08 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0181-b751-9b63-00000f228fe0 
+on database directory E:\Projects\Java\Intellij_Idea\Projects\FeeReport\src\main\resources\Database\FeeReportDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5910e440 
+Loaded from file:/E:/Dependencies/Java/db-derby-10.15.2.0-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=18.0.1.1+2-6
+user.dir=E:\Projects\Java\Intellij_Idea\Projects\FeeReport
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jul 01 06:43:11 IST 2022: Shutting down Derby engine
+----------------------------------------------------------------
+Fri Jul 01 06:43:11 IST 2022:
+Shutting down instance a816c00e-0181-b751-9b63-00000f228fe0 on database directory E:\Projects\Java\Intellij_Idea\Projects\FeeReport\src\main\resources\Database\FeeReportDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5910e440 
+----------------------------------------------------------------
