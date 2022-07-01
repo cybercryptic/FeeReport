@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="511.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.FeeReport.FRGUI.Controller.Accountant.CRUDControllers.FRAUpdateStudentController">
+   <children>
+      <TextField fx:id="studentNameField" layoutX="163.0" layoutY="109.0" prefHeight="31.0" prefWidth="158.0" />
+      <Label layoutX="241.0" layoutY="29.0" prefHeight="30.0" prefWidth="187.0" text="Update Student">
+         <font>
+            <Font name="Verdana" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentEmailField" layoutX="421.0" layoutY="109.0" prefHeight="31.0" prefWidth="158.0" />
+      <TextField fx:id="studentNumberField" layoutX="421.0" layoutY="395.0" prefHeight="30.0" prefWidth="158.0" />
+      <TextField fx:id="studentCountryField" layoutX="167.0" layoutY="394.0" prefHeight="31.0" prefWidth="158.0" />
+      <TextField fx:id="studentStateField" layoutX="421.0" layoutY="344.0" prefHeight="31.0" prefWidth="158.0" />
+      <TextField fx:id="studentCityField" layoutX="163.0" layoutY="344.0" prefHeight="31.0" prefWidth="158.0" />
+      <TextField fx:id="studentDueField" layoutX="421.0" layoutY="207.0" prefHeight="31.0" prefWidth="158.0" />
+      <TextField fx:id="studentPaidField" layoutX="163.0" layoutY="207.0" prefHeight="31.0" prefWidth="158.0" />
+      <TextField fx:id="studentFeeField" layoutX="421.0" layoutY="158.0" prefHeight="31.0" prefWidth="158.0" />
+      <TextField fx:id="studentCourseField" layoutX="163.0" layoutY="158.0" prefHeight="31.0" prefWidth="158.0" />
+      <Button layoutX="230.0" layoutY="458.0" mnemonicParsing="false" onAction="#updateStudent" prefHeight="26.0" prefWidth="82.0" text="Update">
+         <font>
+            <Font name="Verdana" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="350.0" layoutY="458.0" mnemonicParsing="false" onAction="#backToStudent" prefHeight="26.0" prefWidth="82.0" text="Back">
+         <font>
+            <Font name="Verdana" size="16.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="studentAddressArea" layoutX="177.0" layoutY="256.0" prefHeight="64.0" prefWidth="391.0" />
+      <Label layoutX="88.0" layoutY="113.0" text="Name:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="335.0" layoutY="113.0" text="Email:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="162.0" text="Course:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="162.0" text="Fee:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="211.0" text="Paid:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="335.0" layoutY="211.0" text="Due:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="256.0" text="Address:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="348.0" text="City:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="348.0" text="State:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="399.0" text="Country:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="398.0" text="Number:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

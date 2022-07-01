@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.FeeReport.FRGUI.Controller.Admin.CRUDControllers.FRAUpdateAccountantController">
+   <children>
+
+      <TextField fx:id="acntNameField" layoutX="280.0" layoutY="118.0" prefHeight="32.0" prefWidth="170.0" />
+      <TextField fx:id="acntPasswordField" layoutX="280.0" layoutY="163.0" prefHeight="32.0" prefWidth="170.0" />
+      <TextField fx:id="acntEmailField" layoutX="280.0" layoutY="207.0" prefHeight="32.0" prefWidth="170.0" />
+      <TextField fx:id="acntNumberField" layoutX="280.0" layoutY="250.0" prefHeight="32.0" prefWidth="170.0" />
+      <Button layoutX="195.0" layoutY="304.0" mnemonicParsing="false" onAction="#updateAccountant" prefHeight="36.0" prefWidth="94.0" text="Update">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font></Button>
+      <Button layoutX="318.0" layoutY="304.0" mnemonicParsing="false" onAction="#backToAccountant" prefHeight="36.0" prefWidth="94.0" text="Back">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="180.0" layoutY="35.0" text="Update Accountant">
+         <font>
+            <Font name="Verdana" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="122.0" text="Name:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="167.0" text="Password:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="211.0" text="Email:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="254.0" text="Number:">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
